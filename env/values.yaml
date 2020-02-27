@@ -14,7 +14,7 @@ expose:
   - 4
   config:
     domain: openshift.kearos.net
-    exposer: Ingress
+    exposer: Route
     http: "true"
     tlsacme: "false"
     urltemplate: '{{.Service}}-{{.Namespace}}.{{.Domain}}'
