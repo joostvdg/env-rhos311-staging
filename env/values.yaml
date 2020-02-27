@@ -13,11 +13,11 @@ expose:
   - --v
   - 4
   config:
-    domain: openshift.kearos.net
+    domain: staging.openshift.kearos.net
     exposer: Route
     http: "true"
     tlsacme: "false"
-    urltemplate: '{{.Service}}.openshift.kearos.net'
+    urltemplate: '{{.Service}}.staging.openshift.kearos.net'
 jenkins:
   Servers:
     Global: {}
