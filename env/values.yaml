@@ -17,7 +17,7 @@ expose:
     exposer: Route
     http: "true"
     tlsacme: "false"
-    urltemplate: '{{.Service}}-{{.Namespace}}.{{.Domain}}'
+    urltemplate: '{{.Service}}.{{.Domain}}'
 jenkins:
   Servers:
     Global: {}
