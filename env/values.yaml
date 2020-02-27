@@ -17,7 +17,7 @@ expose:
     exposer: Route
     http: "true"
     tlsacme: "false"
-    urltemplate: '{{.Service}}.{{.Domain}}'
+    urltemplate: '{{.Service}}.openshift.kearos.net'
 jenkins:
   Servers:
     Global: {}
